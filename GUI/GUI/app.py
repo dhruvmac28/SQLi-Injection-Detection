@@ -1,14 +1,15 @@
+import os
 import streamlit as st
 import pickle
 import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 
 # Load the SVM model from the pickle file
-with open("svm_model.pkl", "rb") as file:
+with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "svm_model.pkl"), "rb") as file:
     svm_model = pickle.load(file)
 
 # Load the vectorizer from the pickle file
-with open("vectorizer.pkl", "rb") as file:
+with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "vectorizer.pkl"), "rb") as file:
     vectorizer = pickle.load(file)
 
 # Function to preprocess the user query
