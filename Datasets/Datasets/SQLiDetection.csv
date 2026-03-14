@@ -1,0 +1,801 @@
+Sentence,Label,Length of Query,Special Characters Count,Keyword Count,Numerical Values Count,Conditions Count,Operation Count,Boolean Keywords Count,Comment Patterns,Entropy
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+"' UNION SELECT ALL username, password FROM users WHERE 'x'='x';",1,63,6,3,0,1,1,0,0,78.42857142857143
+UPDATE accounts SET balance = balance - 100 WHERE account_id = '12345';,0,71,4,1,8,0,1,0,0,76.83098591549296
+DELETE FROM temporary_cart WHERE session_id = 'ABC123';,0,55,3,1,3,1,1,0,0,80.87272727272727
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
+' DROP TABLE users; --,1,22,4,1,0,0,0,0,1,70.31818181818181
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+'; EXEC xp_cmdshell('net user test testpass /ADD'); --,1,54,7,0,0,0,0,0,1,82.42592592592592
+"INSERT INTO orders (product_id, quantity, customer_id) VALUES (101, 2, 'C001');",0,79,3,2,7,1,1,0,0,78.72151898734177
+' OR '1'='1'; --,1,16,8,1,2,1,0,0,1,47.5
+SELECT * FROM products WHERE product_id = 101;,0,46,1,1,3,0,1,0,0,78.69565217391305
