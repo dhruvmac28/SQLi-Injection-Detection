@@ -3,80 +3,87 @@ import streamlit as st
 import pickle
 import matplotlib.pyplot as plt
 import plotly.graph_objects as go
+import database
+
+st.set_page_config(page_title="SQLi Scanner", layout="wide")
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # Load the SVM model from the pickle file
-with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "svm_model.pkl"), "rb") as file:
+with open(os.path.join(BASE_DIR, "svm_model.pkl"), "rb") as file:
     svm_model = pickle.load(file)
 
 # Load the vectorizer from the pickle file
-with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "vectorizer.pkl"), "rb") as file:
+with open(os.path.join(BASE_DIR, "vectorizer.pkl"), "rb") as file:
     vectorizer = pickle.load(file)
 
-# Function to preprocess the user query
+def sanitize_query(query):
+    """Auto-corrects minor issues like unescaped apostrophes to prevent safe queries from breaking the DB."""
+    if "''" not in query and "\\'" not in query:
+        sanitized = query.replace("'", "\\'")
+        if sanitized != query:
+            st.info(f"💡 Info: Your query was automatically sanitized for database execution: `{sanitized}`")
+            return sanitized
+    return query
+
 def preprocess_query(query):
     query_vector = vectorizer.transform([query])
     return query_vector
 
-# Function to make predictions
 def predict(query):
     query_vector = preprocess_query(query)
     prediction = svm_model.predict(query_vector)
     return prediction[0]
 
-# Function to assess query complexity
 def assess_complexity(query):
-    # Calculate complexity score based on query properties
-    # Example: Count frequency of SQL keywords and length of the query
     keyword_counts = sum([query.lower().count(keyword.lower()) for keyword in ['SELECT', 'UPDATE', 'DELETE', 'INSERT']])
     query_length = len(query)
-    # Adjust the complexity score to fit within the range of 0 to 100
     complexity_score = (keyword_counts + query_length) / (len(query) + 4 * len(['SELECT', 'UPDATE', 'DELETE', 'INSERT'])) * 100
-    return complexity_score
+    return min(complexity_score, 100.0)
 
-# Function to assess query severity
 def assess_severity(query):
-    # Example: Calculate severity score based on query properties
-    # You can define your own criteria for assessing severity
-    # Here, we use a simple example based on query length and complexity
     query_length = len(query)
     complexity_score = assess_complexity(query)
-    severity_score = query_length * complexity_score / 100  # Example formula, adjust as needed
-    return severity_score
+    severity_score = query_length * complexity_score / 100
+    return min(severity_score, 100.0)
 
-# Streamlit app
 def main():
-    st.title("SQL Injection Detection")
+    st.title("🛡️ SQL Injection API Scanner")
+    st.markdown("Enter a raw SQL query below to pass it through the AI firewall.")
+    
+    st.sidebar.markdown(
+        "**Pages:**\n\n"
+        "👉 **Scanner:** Test queries against the AI.\n\n"
+        "👉 **Dashboard:** View all past attack logs via the sidebar."
+    )
 
-    # User input
     query = st.text_input("Enter SQL Query:")
 
-    # Button to analyze the query
     if st.button("Analyze"):
-        if not query.strip():  # Check if input is empty or contains only whitespace
+        if not query.strip():
             st.warning("Please enter a SQL query.")
             return
 
-        # Make prediction
-        result = predict(query)
+        sanitized_query = sanitize_query(query)
+        
+        result = predict(sanitized_query)
+        severity_score = assess_severity(sanitized_query)
+        
+        # LOG THIS QUERY TO OUR BACKEND DATABASE
+        database.log_query(sanitized_query, severity_score, bool(result == 1))
 
-        # Display result
         if result == 0:
-            st.success("This query is not malicious.")
-            st.write("Congratulations! Your SQL query has been identified as legitimate. By ensuring that your queries are free from vulnerabilities, you're contributing to the robustness and reliability of your application. Keep up the excellent work!")
+            st.success("✅ This query is not malicious.")
+            st.write("Congratulations! Your SQL query has been identified as legitimate and has been logged to the Security Dashboard.")
         else:
-            st.error("This query is malicious.")
-            st.write("Great job! You've just taken a proactive step towards securing your application against potential SQL injection attacks. By analyzing your SQL queries, you're demonstrating a commitment to maintaining the integrity and security of your data. Keep up the good work!")
+            st.error("🚨 ALERT: This query is malicious.")
+            st.write("Great job! You've just taken a proactive step towards securing your application. This attack attempt has been logged.")
 
-        # Assess query severity
-        severity_score = assess_severity(query)
-
-        # Display severity score label with formatting
         st.markdown(
             f"<h2 style='text-align: center; font-size: 28px; font-weight: bold;'>Severity Score</h2>", 
             unsafe_allow_html=True
         )
 
-        # Plot severity chart
         fig = go.Figure(go.Indicator(
             mode = "gauge+number",
             value = severity_score,
@@ -84,13 +91,10 @@ def main():
             gauge={'axis': {'range': [0, 100]}}
         ))
         fig.update_layout(height=250, margin=dict(t=20, b=20))
-        st.plotly_chart(fig, use_container_width=True)  # Adjust plot size to fit container width
+        st.plotly_chart(fig, use_container_width=True)
 
-# Run the app
 if __name__ == "__main__":
-    import os
     import sys
-    
     if os.environ.get("STREAMLIT_RUNNING_BY_DIRECT_RUN") != "true":
         os.environ["STREAMLIT_RUNNING_BY_DIRECT_RUN"] = "true"
         try:
