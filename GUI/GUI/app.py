@@ -106,3 +106,5 @@ if __name__ == "__main__":
         sys.exit(stcli.main())
     else:
         main()
+
+# Trigger Streamlit rebuild
