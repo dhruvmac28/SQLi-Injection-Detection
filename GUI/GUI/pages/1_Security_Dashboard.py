@@ -74,7 +74,7 @@ if len(recent_logs) > 0:
     # 2. Raw Attack Log
     st.subheader("Recent Security Logs (Last 200 Queries)")
     st.dataframe(
-        df.style.applymap(lambda v: 'background-color: #ffcccc' if v == 1 else '', subset=['Is Malicious']), 
+        df.style.map(lambda v: 'background-color: #ffcccc' if v == 1 else '', subset=['Is Malicious']), 
         use_container_width=True
     )
 
